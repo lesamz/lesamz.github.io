@@ -1,0 +1,161 @@
+
+t {
+  color: black;
+  font-weight: 600;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: white;
+}
+
+.navbar .container {
+  position: relative;
+}
+
+.language-switch {
+  position: absolute;
+  right: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 0.35rem;
+  z-index: 1051;
+}
+
+.lang-link {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  color: #495057;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.35rem;
+  padding: 0.3rem 0.42rem;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.lang-link:hover,
+.lang-link:focus-visible {
+  background-color: rgba(13, 110, 253, 0.1);
+  color: #0a58ca;
+  border-color: rgba(13, 110, 253, 0.2);
+  outline: none;
+}
+
+.lang-link.active {
+  background-color: rgba(13, 110, 253, 0.12);
+  color: #0a58ca;
+  border-color: rgba(13, 110, 253, 0.2);
+}
+
+@media (max-width: 767.98px) {
+  .language-switch {
+    right: 0.5rem;
+  }
+}
+
+.navbar .nav-link {
+  font-size: 1.08rem;
+  font-weight: 500;
+  border-radius: 0.45rem;
+  padding: 0.35rem 0.7rem;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+  background-color: rgba(13, 110, 253, 0.12);
+  color: #0a58ca;
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.navbar .nav-link.active {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.first_section {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.section {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  scroll-margin-top: 100px;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#research .card h3,
+#publications h3,
+#outreach .card h3,
+#contact h2 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.reca-carousel .carousel-control-prev,
+.reca-carousel .carousel-control-next {
+  width: 3rem;
+  height: 3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: rgba(13, 110, 253, 0.75);
+  opacity: 1;
+}
+
+.reca-carousel .carousel-control-prev {
+  left: 0.6rem;
+}
+
+.reca-carousel .carousel-control-next {
+  right: 0.6rem;
+}
+
+.reca-carousel .carousel-control-prev:hover,
+.reca-carousel .carousel-control-next:hover,
+.reca-carousel .carousel-control-prev:focus-visible,
+.reca-carousel .carousel-control-next:focus-visible {
+  background: rgba(10, 88, 202, 0.9);
+}
+
+.reca-carousel .carousel-control-prev-icon,
+.reca-carousel .carousel-control-next-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.reca-carousel .carousel-indicators {
+  margin-bottom: 0.6rem;
+}
+
+.reca-carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 0;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.reca-carousel .carousel-indicators .active {
+  background-color: #0d6efd;
+}
