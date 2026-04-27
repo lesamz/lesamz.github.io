@@ -53,7 +53,10 @@ t {
 
 @media (max-width: 767.98px) {
   .language-switch {
-    right: 0.5rem;
+    position: fixed;
+    top: 0.8rem;
+    right: 0.75rem;
+    transform: none;
   }
 }
 
